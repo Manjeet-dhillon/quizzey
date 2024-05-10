@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		
+                <link rel="stylesheet" href="login.css" />
+		<title>Quizzey</title>
+	</head>
+
+	<body>
+             <style>
+        /* Resetting default margin and padding */
+        body, h1, h2, p, ul, li, footer {
+            margin: 0;
+            padding: 0;
+            color: #7e57c2;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+        }
+        
+        nav {
+            background-color: whitesmoke;
+            box-shadow: #fff;
+          color: #7e57c2;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .logo img {
+            max-width: 100px;
+            height: auto;
+            margin-left: 200px;
+        }
+        
+        .nav1 {
+            margin-top: 20px;
+        }
+        
+        .nav1 a {
+            color: #7e57c2;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .nav1 a:hover {
+            color: #ffd700; /* Change color on hover */
+        }
+        
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .nav1 {
+                margin-top: 10px;
+                flex-direction: column;
+            }
+            .nav1 a {
+                margin: 5px 0;
+                display: block;
+            }
+        } 
+        /* Resetting default margin and padding */
+        body, h1, h2, p, ul, li, footer {
+            margin: 0;
+            padding: 0;
+            color: #7e57c2;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+        }
+        
+        nav {
+            background-color: whitesmoke;
+            box-shadow: #fff;
+          color: #7e57c2;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .logo img {
+            max-width: 100px;
+            height: auto;
+            margin-left: 200px;
+        }
+        
+        .nav1 {
+            margin-top: 20px;
+        }
+        
+        .nav1 a {
+            color: #7e57c2;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        
+        .nav1 a:hover {
+            color: #ffd700; /* Change color on hover */
+        }
+        
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .nav1 {
+                margin-top: 10px;
+                flex-direction: column;
+            }
+            .nav1 a {
+                margin: 5px 0;
+                display: block;
+            }
+        }
+        </style>
+            <nav>
+        <div class="logo">
+            <h1><b>Quizzey</b></h1>
+        </div>
+        <div class="nav1">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+            
+           
+        </div>
+    </nav>
+		<div class="signInCard">
+			<h1>QUIZZEY</h1>
+                        <form id="signInForm" action="stdlogin">
+				<input type="email" placeholder="Email" name="stdemail" required />
+				<input
+					type="password"
+					placeholder="Password"
+					name="stdpass"
+					required
+				/>
+				<a>Forgot Password ?</a>
+				<button type="submit">LOGIN</button>
+			</form>
+			<span>Don't have an account ?</span>
+                        <a class="sign-up" href="index.html">Sign Up</a>
+		</div>
+		
+	</body>
+</html>

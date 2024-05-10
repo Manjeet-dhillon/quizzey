@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Add questions</title>
+        <link rel="stylesheet" href="quizcss.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .add {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .add div {
+            margin-bottom: 15px;
+        }
+        .add input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .add button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .add button:hover {
+            background-color: #0056b3;
+        }
+        h2 {
+            margin: 0;
+        }
+    </style>
+    <body>
+        <form action="addquestions">
+        <div class="add">
+            <div style="pl"> Course<input type="text" name="corse"/></div><br>
+            <div> Subject<input type="text" name="subj"/></div><br>
+            <div> Question<input type="text" name="q"/></div><br>
+            <div> Option 1<input type="text" name="op1"/></div><br>
+            <div> Option 2<input type="text" name="op2"/></div><br>
+            <div> Option 3<input type="text" name="op3"/></div><br>
+            <div> Option 4<input type="text" name="op4"/></div><br>
+            <div>Answer<input type="text" name="ans"/></div>
+            <div><button type="submit" name="add" value="add"><h2>ADD</h2></button></div>
+            
+        </div>
+            </form>
+    </body>
+</html>
